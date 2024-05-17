@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 80vw;
+}
+.image {
+    width: 20%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: start;
+}
+.image img {
+    height: 344px;
+    height: 60%;
+    border-radius: 24px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 75%;
+}
+
+.level hr {
+    border: none; /* Hide the default border */
+    height: 10px; /* Set the height of the rule */
+    background: linear-gradient(45deg, #036cff, #d20af5);
+}
+
+.xperience h1 {
+    background: linear-gradient(45deg, #036cff, #d20af5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
