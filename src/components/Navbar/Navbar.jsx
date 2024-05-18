@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <Cursor cursor={cursor}/>
+      <Cursor cursor={cursor} />
       <nav className="flex-wrap flex justify-evenly box-border py-6 items-center sm:flex-row md:flex-col lg:flex-row xl:flex-col 2xl:flex-row bg-[#030617]">
         <div>
         </div>
