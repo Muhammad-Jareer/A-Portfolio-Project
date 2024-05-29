@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import profileImg from "../../assets/profile.jpg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 
 const AboutMe = () => {
@@ -82,34 +82,39 @@ const AboutMe = () => {
               <img className="h-[250px] w-[250px] rounded-full" src={profileImg} alt="" />
           </div>
           <div ref={socialRef} className="flex gap-8">
-            <a
-            href="https://wa.me/923155513089"
-            >
-              <FaWhatsapp
-                className="text-green-500 rounded-lg"
-                size={40}
-              />
-            </a>
-            <a
-              href= 'mailto:jareerameer@gmail.com'
-            >
-              <CiMail
-                className="text-white rounded-lg"
-                size={40}
-              />
-            </a>
-            <NavLink
-            to="https://www.linkedin.com/in/muhammad-jareer-amiri-0210bb298"
-            target="blank"
-            >
-              <FaLinkedin className="text-blue-500" size={40} />
-            </NavLink>
-            <NavLink
-            to="https://github.com/Muhammad-Jareer"
-            target="blank"
-            >
-              <FaGithub size={40} />
-            </NavLink>
+             <a
+              href="https://wa.me/923101871330"
+              target="blank"
+              >
+                <FaWhatsapp
+                  className="text-green-500  rounded-lg"
+                  size={40}
+                />
+              </a>
+
+              <a
+              href= 'mailto:Hamasadil086@gmail.com'
+              >
+                <CiMail
+                  className="text-white rounded-lg"
+                  size={40}
+                />
+              </a>
+
+            
+              <NavLink
+              to="https://www.facebook.com/deep.walker.501?mibextid=ZbWKwL"
+              target="blank"
+              >
+                <FaFacebook className="text-blue-500 bg-white rounded-full" size={40} />
+              </NavLink>
+
+              <NavLink
+              to="https://www.instagram.com/i_m_hammas?igsh=OGQ5ZDc2ODk2ZA=="
+              target="blank"
+              >
+                <FaInstagram className="bg-gradient-to-t from-yellow-500 via-pink-500 to-red-600 rounded-lg" size={40} />
+              </NavLink> 
           </div>
           <a 
           download

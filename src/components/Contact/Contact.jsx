@@ -94,11 +94,11 @@ const Contact = () => {
               <p className="py-4 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae error blanditiis, facere incidunt obcaecati tempora explicabo cumque repudi vero et!</p>
               <div className="flex items-center gap-6 py-4">
                 <CiMail size={35} />
-              <p className="text-xl ">jareerameer@gmail.com</p>
+              <p className="text-xl ">Hamasadil086@gmail.com</p>
               </div>
               <div className="flex items-center gap-6 py-4">
                 <BsFillTelephoneFill size={35} />
-              <p className="text-xl ">+92 315 5513089</p>
+              <p className="text-xl ">+92 3101871330</p>
               </div>
               <div className="flex items-center gap-6 py-4">
                 <FaLocationDot size={35} />

@@ -6,7 +6,7 @@ import { useGSAP } from '@gsap/react'
 
 
 
-import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook , FaInstagram } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 
 const Home = () => {
@@ -60,7 +60,7 @@ const Home = () => {
           <h3 className="text-4xl font-bold px-4 bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">Social Links</h3>
           <div ref={socialRef} className="flex my-4 gap-6">
               <a
-              href="https://wa.me/923155513089"
+              href="https://wa.me/923101871330"
               >
                 <FaWhatsapp
                   className="text-green-500  rounded-lg"
@@ -69,7 +69,7 @@ const Home = () => {
               </a>
 
               <a
-              href= 'mailto:jareerameer@gmail.com'
+              href= 'mailto:Hamasadil086@gmail.com'
               >
                 <CiMail
                   className="text-white rounded-lg"
@@ -78,17 +78,17 @@ const Home = () => {
               </a>
 
               <NavLink
-              to="https://www.linkedin.com/in/muhammad-jareer-amiri-0210bb298"
+              to="https://www.facebook.com/deep.walker.501?mibextid=ZbWKwL"
               target="blank"
               >
-                <FaLinkedin className="text-blue-500" size={40} />
+                <FaFacebook className="text-blue-500 bg-white rounded-full" size={40} />
               </NavLink>
 
               <NavLink
-              to="https://github.com/Muhammad-Jareer"
+              to="https://www.instagram.com/i_m_hammas?igsh=OGQ5ZDc2ODk2ZA=="
               target="blank"
               >
-                <FaGithub size={40} />
+                <FaInstagram className="bg-gradient-to-t from-yellow-500 via-pink-500 to-red-600 rounded-lg" size={40} />
               </NavLink>         
           </div>
         </div>
