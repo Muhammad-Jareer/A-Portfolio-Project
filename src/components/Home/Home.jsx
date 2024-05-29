@@ -4,6 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
+
+
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 
