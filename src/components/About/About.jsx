@@ -117,7 +117,6 @@ const AboutMe = () => {
               </NavLink> 
           </div>
           <a 
-          download
           href='/resume.pdf'
           className="border-2 border-white px-8 py-2 rounded-xl hover:bg-blue-500">
           My Resume
