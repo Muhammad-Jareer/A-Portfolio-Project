@@ -115,7 +115,7 @@ const Navbar = () => {
 
         {menu && (
           <div className="fixed w-full h-screen flex flex-col justify-center items-center bg-black text-white left-0 top-0">
-            <ul className="flex flex-col gap-24 text-5xl justify-center items-center">
+            <ul className="flex flex-col gap-16 text-4xl justify-center items-center">
             <NavLink
             onClick={() => setMenu(!menu)}
             to="/"

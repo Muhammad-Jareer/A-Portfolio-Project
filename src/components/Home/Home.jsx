@@ -49,13 +49,13 @@ const Home = () => {
 
   return (
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-6 h-screen w-full mx-auto max-w-7xl py-12">
-        <div ref={profileRef} className="flex flex-col justify-start items-center">
+        <div ref={profileRef} className="flex flex-col justify-start items-center px-6 sm:px-0">
           
           <img
-          className="mt-24 mb-12 mx-4"
+          className="mt-24 mb-12 mx-12"
             src={proflie_Img}
             alt=""
-            style={{ width: "360px", borderRadius: "50%", height: "370px" }}
+            style={{ width: "360px", borderRadius: "50%", height: "360px" }}
           />
           <h3 className="text-4xl font-bold px-4 bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">Social Links</h3>
           <div ref={socialRef} className="flex my-4 gap-6">
