@@ -97,7 +97,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-3xl md:text-6xl font-bold">
 
-              <span className="bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">I am Muhammad Jareer,</span> front-end developer
+              <span className="bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">I am Hammas Adil,</span> front-end developer
             </h1>
             <p className="my-8 text-2xl">
               I am a front-end Developer from Haripur, Pakistan with a couple of

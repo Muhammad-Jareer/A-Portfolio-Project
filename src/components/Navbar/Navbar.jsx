@@ -56,8 +56,8 @@ const Navbar = () => {
       <nav className="w-full flex px-6 justify-between lg:justify-evenly items-center box-border py-6 bg-[#030617] fixed top-0 z-20">
   
         <div ref={logoRef}>
-          <Link to="/" className="text-4xl bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text font-bold">
-            Jerry <span className="text-white">Dev</span>
+          <Link to="/" className="text-4xl bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text font-bold font-signature">
+            Hammas <span className="text-white px-4">Dev</span>
           </Link>
         </div>
 
