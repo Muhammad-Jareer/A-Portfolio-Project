@@ -74,11 +74,11 @@ const Services = () => {
   });
 
   return (
-    <div className="w-full max-w-7xl mx-auto h-screen">
-        <h1 ref={headingRef} className="pt-24 pb-8 text-center text-6xl bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">Services</h1>
+    <div className="w-full lg:px-40 mx-auto h-screen">
+        <h1 ref={headingRef} className="pt-28 pb-8 text-center text-6xl bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text">Services</h1>
         <div className="flex justify-center items-center">
 
-          <div ref={servicesRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 px-12 lg:px-0">
+          <div ref={servicesRef} className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 px-12 lg:px-0">
                 {services.map(({id, title, description}) => (
                           <div key={id} className="flex flex-col gap-5 bg-transparent border-2 border-white rounded-xl px-6 py-4 transition duration-900 ease-in-out transform hover:scale-105 hover:cursor-pointer hover:bg-gradient-to-r from-blue-200 to-purple-100 hover:text-black">
                           <h1 className="text-2xl font-bold">0{id}</h1>

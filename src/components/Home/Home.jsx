@@ -114,7 +114,7 @@ const Home = () => {
             <a
             download
             href='/resume.pdf'
-            className="text-white text-2xl py-3 px-4 lg:ml-3 rounded-full bg-transparent hover:border-2 hover:border-blue-500 border-2 border-white  transition-all duration-50">
+            className="text-white text-center text-2xl py-3 px-4 lg:ml-3 rounded-full bg-transparent hover:border-2 hover:border-blue-500 border-2 border-white  transition-all duration-50">
             My Resume
             </a>
           </div>
